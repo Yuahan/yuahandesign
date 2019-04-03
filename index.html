@@ -83,7 +83,7 @@
 <body>
     <!-- Gomaji Header -->
     <div class="header" id="top">
-        
+        <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>(function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -92,6 +92,8 @@
                 js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.2&appId=227722980573241&autoLogAppEvents=1';
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
+        <!-- Load Facebook SDK for JavaScript -->
+
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNT85FG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
@@ -118,7 +120,6 @@
     </div>
     <!-- Slider -->
     <div class="slider">
-
         <div id="slider_img">    
             <img src="images/p01.jpg" alt="" class="active">
             <img src="images/p02.jpg" alt="">
@@ -129,18 +130,14 @@
         </div>
         <div class="slider_icon">
             <img src="images/kv-top.png" class="top">
-            <img src="images/title.png" alt="" class="title">
-
-    
+            <img src="images/title.png" alt="" class="title">    
         </div>
-        
     </div>
     <div class="slider_icon_2">
-            <img src="images/girl.png" alt="" class="girl">
-            <img src="images/airplan.png" alt="" class="airplane">
-            <img src="images/content-top.png" alt="" class="edge">
+        <img src="images/girl.png" alt="" class="girl">
+        <img src="images/airplan.png" alt="" class="airplane">
+        <img src="images/content-top.png" alt="" class="edge">
     </div>
-    <!-- </div> -->
     <!-- main section -->
     <div class="main">
         <!-- tab button -->
@@ -639,7 +636,7 @@
                     <div class="fb-like">
                         <div id="fb-root"></div>
                         <!--GOMAJI 夠麻吉 FB ID-->
-                        <fb:like href="https://www.gomaji.com/event/201904/babyfun/" send="true" layout="button_count"
+                        <fb:like href="https://www.gomaji.com/event/201904/GOMAJIJapantravel/" send="true" layout="button_count"
                             width="600" show_faces="true" font=""></fb:like>
                     </div>
                     <!--  FB結束 -->
@@ -683,7 +680,7 @@
                 }
                 $('#tab_icon' + id).addClass('active');
                 $('#content_' + id).addClass('show');
-            }
+            };
 
         </script>
 </body>
