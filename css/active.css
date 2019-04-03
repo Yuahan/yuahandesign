@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+.kv{
+    width: 100%;
+    position: absolute;
+    top: 2vw;
+}
+.kv .top {
+    width: 100%;
+    position: absolute;
+}
+.kv .title {
+    position: absolute;
+    margin-left: calc(50% - 30vw);
+    margin-top: 5vw;
+    max-width: 60vw;
+}
+.kv .girl {
+    position: absolute;
+    margin-left: calc(50% - 30vw);
+}
+.kv .airplane {
+    position: absolute;
+    margin-left: calc(50% - 30vw);
+}
+.kv_bg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.kv_bg img{
+    max-width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+}
+@media screen and (max-width: 1250px) {
+}
+/*=================================PAD======================================*/
+
+@media screen and (max-width: 1024px) {
+  .kv{
+    top: 0;
+}
+}
+@media screen and (max-width: 855px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 736px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 320px) {
+
+}
+

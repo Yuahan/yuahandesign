@@ -1,0 +1,22 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;font-weight: normal;font-family: "蘋果儷中黑","Apple LiGothic Medium","微軟正黑體","Microsoft JhengHei","Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight: normal;}
+
+body {}
+ol,ul {list-style: none;padding: 0; margin: 0;}
+table {border-collapse: collapse; border-spacing: 0;}
+a {text-decoration: none;}
+img {width: 100%;}
+
+p ,h1 ,h2{
+font-family: "蘋果儷中黑","Apple LiGothic Medium","微軟正黑體","Microsoft JhengHei","Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight: normal;}
+
+article, aside, footer, header, hgroup, main, nav, section {display: block;}
+
+.CLEAR { clear:both; height:0; font-size:0; line-height:0;}
+
+
+
+
+
+

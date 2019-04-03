@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+.app-espwarp {color: #000;margin: 0 auto;padding: 15px 15px;text-align: left;/* background: url(../images/adrbg.png) no-repeat;*/ background-size: 58% auto; background-position: right 250px; width: 1000px; }
+
+.app-espwarp_bg {background-color:#ffc91c; padding-bottom: 30px;}
+.app-espwarp_bg2 {background-color:#7de3ff;}
+
+.clearfix {display:block;}
+.app-espwarp ul {display: inline-block;width:100%;padding:10px;-webkit-box-sizing:border-box;box-sizing:border-box; font-size:16px; line-height: 24px;}
+.app-espwarp ul li {list-style-position: outside;list-style-type: decimal;margin: 3px 0px 0px 19px;padding:3px 0px;}
+
+.app-espwarp ul  {margin: 5px 0;padding: 0px 40px; }
+.app-espwarp ul li{width: auto;list-style-type: none;margin-left:0px;}
+
+.app-espwarp ul li {list-style-position: outside;list-style-type: decimal;margin-left: 24px;}
+.app-espwarp ul.BG_cl1>span{display:inline-block; padding:6px; margin-bottom:10px;}
+
+.app-espwarp h1 {font-size: 31px;padding:15px 0px;color: #fff;text-align:center; }
+.app-espwarp h1.BG_1 {background-color:#ff002a; margin: 20px 0;}
+.app-espwarp p {line-height:29px;word-break: break-all;margin: 0;padding:0px 40px; }
+.app-espwarp p:last-child {margin-bottom: 30px; }
+.app-espwarp .act_ts {padding-top:15px; }
+
+/*.app-espwarp ul.BG_cl1 {background-color:#51457C;}*/
+.app-espwarp ul.BG_cl2 {background-color:#6bdeff;}
+.app-espwarp ul li span.intext1 {color: #981793;}
+span.inT2 {color: #6c00ff; font-size: 24px;}
+span.intext2 {color: #ff3506;}
+.BG_color1 { background-image:url(images/explain_img.png); background-position: 70px 0; background-repeat: no-repeat;}
+
+.app-espwarp a {text-decoration:underline;color: #5a6dff;word-break: break-all;}
+.app-espwarp_bg a.btn { display: block; clear: both; width: 270px; padding: 8px 0px; text-align: center; font-family: "AG-Book-Stencil","Lantinghei SC","Microsoft JhengHei","Helvatica", sans-serif; line-height: 1; background-color: #d20000; border: none !important;color: #fff; margin: 0 0 0 24px; text-decoration:none;}
+.app-espwarp_bg a.btn:hover{ background-color:#9800FF;}
+/*以下手機吃的CSS_開始*/
+@media screen and (max-width: 1024px) {
+.app-espwarp{ width: 100%;}
+}
+
+@media screen and (max-width:960px) {
+
+}
+@media screen and (max-width:768px) {
+.app-espwarp p {padding:0px 10px; }
+}
+@media screen and (max-width:480px) {
+.app-espwarp p {padding:0px 8px; }
+.app-espwarp ul { padding: 15px 12px;}
+}
+/*以下手機吃的CSS_結束*/
