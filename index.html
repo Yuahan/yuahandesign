@@ -677,11 +677,21 @@
                 var i;
                 for (i = 0; i < 5; i++) {
                     var r = i + 1
-                    $('#tab_icon' + r).removeClass('active');
-                    $('#content_' + r).removeClass('show')
+
+                    var el = document.getElementById('tab_icon' + r)
+                    el.classList.remove("active");
+
+
+                    var elc = document.getElementById('content_' + r)
+                    elc.classList.remove("show");
+                    console.log('remove', r)
+ 
                 }
-                $('#tab_icon' + id).addClass('active');
-                $('#content_' + id).addClass('show');
+                var ela = document.getElementById('tab_icon' + id);
+                var elca = document.getElementById('content_' + id)
+                ela.classList.add("active");
+                elca.classList.add("show");
+                console.log('add', id)
             }
 
         </script>
