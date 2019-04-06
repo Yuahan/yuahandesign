@@ -295,13 +295,13 @@ a, a:hover{
 }
 @media (max-width: 414px){
     .tab_icon{
-        background-size: 60px;
-        width: 60px;
-        height: 60px;
+        background-size: 70px;
+        width: 70px;
+        height: 70px;
     }
     .tab_icon:hover,
     .tab_icon.active{
-        background-position-y: 75px;
+        background-position-y: 70px;
     }
 }
 .contentBox{
