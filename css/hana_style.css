@@ -66,22 +66,9 @@ a, a:hover{
     background-size: 188px 47px;
     margin-right: 0.5rem;
 }
-
 @media (max-width: 1045px){
     .gomaji-social .fb-like-ww{
         display: none;
-    }
-}
-@media (max-width: 976px){
-    .header{
-        display: none;
-    }
-    #slider_img img,
-    .slider_icon .top{
-        top: 0!important;
-    }
-    .slider{
-        height: 50vw!important;
     }
 }
 /*GOTOTOP Btn*/
@@ -174,7 +161,51 @@ a, a:hover{
         transform: translateY(-450%);
     }
 }
-
+@media (max-width: 976px){
+    .header{
+        display: none;
+    }
+    #slider_img img,
+    .slider_icon .top{
+        top: 0!important;
+    }
+    .slider{
+        height: 50vw!important;
+    }
+    .slider_icon .title {
+        margin-top: 3vw;
+        width: 68vw;
+    }
+    .slider_icon_2 .airplane {
+        width: 16vw;
+        left: 64%;
+    }
+    .slider_icon_2 .girl {
+        width: 16vw;
+        margin-left: calc(50% - 30vw);
+    }
+}
+@media (max-width: 500px){
+    .slider{
+        height: 80vw!important;
+    }
+    #slider_img img{
+        width: 100%;
+        height: 80vw;
+    }
+    .slider_icon .title {
+        margin-top: 5vw;
+        width: 100%;
+    }
+    .slider_icon_2 .airplane {
+        width: 27vw;
+        left: 69%;
+    }
+    .slider_icon_2 .girl {
+        width: 24vw;
+        margin-left: calc(50% - 40vw);
+    }
+}
 /* 商品圖 */
 .main{
     background: url('../images/content_bg_l.png') no-repeat left top, url('../images/content_bg_r.png') no-repeat right bottom;
@@ -260,6 +291,17 @@ a, a:hover{
     .tab_icon:hover,
     .tab_icon.active{
         background-position-y: 85px;
+    }
+}
+@media (max-width: 320px){
+    .tab_icon{
+        background-size: 75px;
+        width: 75px;
+        height: 75px;
+    }
+    .tab_icon:hover,
+    .tab_icon.active{
+        background-position-y: 75px;
     }
 }
 .contentBox{
