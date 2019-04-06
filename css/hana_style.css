@@ -24,9 +24,6 @@ table {
 a, a:hover{
     text-decoration: none !important;
 }
-.contentBox .container{
-    background-color: #f6f6f6;
-}
 /* header */
 .header{
     width: 100%;
@@ -253,7 +250,7 @@ a, a:hover{
 }
 @media (max-width: 1200px){
     .main{
-        padding: 0;
+        padding: 10vw 0;
     }
     .tab_icon{
         background-size: 120px;
@@ -311,6 +308,14 @@ a, a:hover{
 }
 .contentBox.show{
     display: block;
+}
+.contentBox .container{
+    background-color: #f6f6f6;
+}
+@media only screen and (max-width: 970px) and (min-width: 501px){
+.contentBox .container {
+    max-width: 100% !important;
+    }
 }
 .tab-content {
     width: 100%;
