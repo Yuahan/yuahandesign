@@ -284,20 +284,20 @@ a, a:hover{
         width: 100%;
     }
     .tab_icon{
-        background-size: 85px;
-        width: 85px;
-        height: 85px;
+        background-size: 80px;
+        width: 80px;
+        height: 80px;
     }
     .tab_icon:hover,
     .tab_icon.active{
-        background-position-y: 85px;
+        background-position-y: 80px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 414px){
     .tab_icon{
-        background-size: 75px;
-        width: 75px;
-        height: 75px;
+        background-size: 60px;
+        width: 60px;
+        height: 60px;
     }
     .tab_icon:hover,
     .tab_icon.active{
