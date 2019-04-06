@@ -33,8 +33,8 @@
 <!--     <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
     <link href="css/active.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css"   rel="stylesheet" type="text/css" />
-    <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--CSS結束-->
 
     <!--數字不會開啟撥號_開始-->
@@ -83,7 +83,7 @@
 </head>
 <body>
     <!-- Gomaji Header -->
-    <div class="header" id="top">
+    <div class="header">
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>(function (d, s, id) {
@@ -119,8 +119,15 @@
             </div>
         </div>
     </div>
+    <!-- TOP -->
+    <div id="foodtop-box" class="topBtn down">
+        <a href="#top">
+            <i class="fa fa-chevron-up" aria-hidden="true" style="color: #fff;"></i>
+            <span>TOP</span>
+        </a>
+    </div>
     <!-- Slider -->
-    <div class="slider">
+    <div class="slider" id="top">
         <div id="slider_img">    
             <img src="images/p01.jpg" alt="" class="active">
             <img src="images/p02.jpg" alt="">
@@ -147,7 +154,7 @@
             <div id="tab_icon2" class="tab_icon tab_icon2" onclick="tabClick(2)"></div>
             <div id="tab_icon3" class="tab_icon tab_icon3" onclick="tabClick(3)"></div>
             <div id="tab_icon4" class="tab_icon tab_icon4" onclick="tabClick(4)"></div>
-            <a href=""><div id="tab_icon5" class="tab_icon tab_icon5" ></div></a>
+            <a href="#" target="_blank"><div id="tab_icon5" class="tab_icon tab_icon5" ></div></a>
         </div>
         <div id="content_1" class="contentBox show">
             <div class="container">
@@ -158,7 +165,7 @@
                                 <h3>必買交通卷</h3>
                                 <div class="productList">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="product_img">
@@ -206,7 +213,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="deals-lab lab-1000up">破仟團購</div>
@@ -249,7 +256,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="deals-lab lab-1000up">破仟團購</div>
@@ -292,7 +299,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="deals-lab lab-1000up">破仟團購</div>
@@ -353,7 +360,7 @@
                                 <h3>超值一日遊</h3>
                                 <div class="productList">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="product_img">
@@ -418,7 +425,7 @@
                                 <h3>人氣樂園</h3>
                                 <div class="productList">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="product_img">
@@ -483,7 +490,7 @@
                                 <h3>優惠訂房</h3>
                                 <div class="productList">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="product_img">
@@ -548,7 +555,7 @@
                                 <h3>遊日攻略</h3>
                                 <div class="productList">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a class="productItem" href="#">
                                                 <div class="picbox">
                                                     <div class="product_img">
@@ -605,8 +612,34 @@
             </div>
         </div>
     </div>
-    <div class="policy">
-
+    <div class="policyBox">
+        <div class="container">
+            <div class="row">
+                <div class="policy">
+                    <h3>活動贈點注意事項</h3>
+                    <p class="mb-4"><span class="sub-title">活動時間：</span>2019/4/15～2019/4/30 每日 10:00 ~ 23:59</p>
+                    <p><span class="sub-title">贈點3%注意事項：</span></p>
+                    <ol class="mb-4">
+                        <li>使用GOMAJI APP購買本活動網頁指定檔次即可獲得3%點數回饋資格。</li>
+                        <li>需於APP購買活動時間(2019/4/15 10:00 ~ 4/3023:59)完成下單方具贈點資格；若未完成交易或後續退貨，則視同放棄贈點權益，<span style="color: #ff0016;">JR PASS&WIFI網卡(暫定)/一日遊/遊樂園</span>核銷後即贈點。</li>
+                        <li>回饋點數依實際付款金額(含現金與購物金，但扣除活動序號折扣、麻吉券、點數)計算，所贈送點數採四捨五入方式計算，點數效期為匯入後20天。</li>
+                        <li>活動方式、獎項內容以 GOMAJI 官方網站公佈為主，參加者於參加本活動同時，即同意接受本活動辦法與注意事項之規範，如有違反，GOMAJI 有權取消其參加或得獎資格。</li>
+                        <li>如本活動因不可抗力之特殊原因無法執行時，GOMAJI 有權決定取消、終止、修改或暫停本活動。</li>
+                    </ol>
+                    <p><span class="sub-title">優惠訂房 贈點5%注意事項：</span></p>
+                    <p>活動期間內，於 GOMAJI 線上訂房專區的海外飯店（不含台灣）預約住房，<span style="color: #ff0016;">實際入住核銷後即可獲得 5% 贈點</span>！</p>
+                    <p><span class="sub-title">活動說明：</span></p>
+                    <ol>
+                        <li>會員須透過 GOMAJI 本活動網站於活動時間內預約海外訂房，且無申請退款退訂，實際入住核銷後即符合贈點資格。</li>
+                        <li>會員帳戶以購買訂單之手機號碼為主，該手機號碼需已於 GOMAJI APP 完成手機認證始可獲得贈點。</li>
+                        <li>需於活動時間內完成下單方具贈點 5% 資格；若逾付款時間未完成交易或後續退款，則視同放棄贈點權益。</li>
+                        <li>如該訂單完全或部分退費，或未完成訂單，則取消贈點資格不另行通知。</li>
+                        <li>回饋點數依實際付款的金額(含現金與購物金，但扣除活動序號折扣、麻吉券、點數)計算，所贈送的點數採四捨五入方式計算，點數效期為匯入後20天，限下次付款時折抵使用，點數所能折抵之消費上限，依 GOMAJI APP 客服中心所<a href="https://www.gomaji.com/help#faq-18" target="_blank">公告</a>為準。</li>
+                        <li>活動方式、獎項內容以 GOMAJI 官方網站公佈為主，參加者於參加本活動之同時，即同意接受本活動之活動辦法與注意事項之規範，如有違反， GOMAJI 取消其參加或贈獎資格。如本活動因不可抗力之特殊原因無法執行時，GOMAJI 有權決定取消、終止、修改­或暫停本活動。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </div>
     <!--Footer-->
     <div class="footer">
@@ -644,6 +677,16 @@
                 </div>
             </div>
         </div>
+    <script>
+        $(window).bind("load", function () {
+            $.getScript('social.js', function () { });
+                //在ios android 隱藏 footer
+                //if (navigator.userAgent.match(/GOMAJI/)) {
+                if (window.location.href.match("cmd=android") || window.location.href.match("cmd=iphone2")) {
+                    $('.footer').hide();
+                }
+            });
+    </script>
     <script>
             function slideshow() {
                 var slideshow=document.getElementById("slider_img"),
@@ -695,7 +738,26 @@
             }
 
         </script>
-
+        <script>
+            // .down 下滑至300後才出現
+            $(window).scroll(function () {
+                var target = $(".down");
+                var isVisible = target.is(":visible");
+                console.log($(window).scrollTop())
+                if ($(window).scrollTop() >= 300) {
+                    if (!isVisible) target.show();
+                } else {
+                    if (isVisible) target.hide();
+                }
+            });
+            $('a[href*=#]:not([href=#notice])').click(function () {
+                var target = $(this.hash);
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 20
+                }, 1000);
+                return false;
+            });
+        </script>
 </body>
 </html>
 
